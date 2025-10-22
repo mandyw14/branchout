@@ -46,7 +46,7 @@ st.sidebar.header("Filters")
 author_query = st.sidebar.text_input(
     "Author contains",
     value="",
-    placeholder="e.g., Sohn"
+    placeholder="e.g., Sohn or Sohn, M."
 )
 
 content_query = st.sidebar.text_input(
